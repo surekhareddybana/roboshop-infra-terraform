@@ -27,7 +27,7 @@ resource "terraform_data" "mongodb" {
     user = "ec2-user"
     password = "DevOps321"
     host  = aws_instance.mongodb.private_ip
-    bastion_host        = "34.229.59.255"
+    bastion_host        = "54.237.219.38"
     bastion_user        = "ec2-user"
     bastion_password    = "DevOps321"
   }
@@ -94,7 +94,7 @@ resource "terraform_data" "redis" {
     user = "ec2-user"
     password = "DevOps321"
     host  = aws_instance.redis.private_ip
-    bastion_host        = "34.229.59.255"
+    bastion_host        = "54.237.219.38"
     bastion_user        = "ec2-user"
     bastion_password    = "DevOps321"
   }
@@ -137,7 +137,7 @@ resource "terraform_data" "mysql" {
     user = "ec2-user"
     password = "DevOps321"
     host  = aws_instance.mysql.private_ip
-    bastion_host        = "34.229.59.255"
+    bastion_host        = "54.237.219.38"
     bastion_user        = "ec2-user"
     bastion_password    = "DevOps321"
   }
@@ -179,7 +179,7 @@ resource "terraform_data" "rabbitmq" {
     user = "ec2-user"
     password = "DevOps321"
     host  = aws_instance.rabbitmq.private_ip
-    bastion_host        = "34.229.59.255"
+    bastion_host        = "54.237.219.38"
     bastion_user        = "ec2-user"
     bastion_password    = "DevOps321"
   }
